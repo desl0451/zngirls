@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{39C9EF51-6F61-496F-9DF4-971D6410EC53}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>www_zngirls_com_g</RootNamespace>
+    <AssemblyName>www_zngirls_com_g</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v15.2.Core, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Dashboard.v15.2.Core, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Dashboard.v15.2.Win, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v15.2.UI, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Map.v15.2.Core, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v15.2.Core, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v15.2.Core, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v15.2.Core, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v15.2.Core, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v15.2.UI, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v15.2.UI, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v15.2.Wizard, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v15.2.Core, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v15.2.Presets, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v15.2.Win, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraLayout.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraMap.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v15.2.Extensions, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Girl.cs" />
+    <Compile Include="UI\Layer2\MainArticle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Layer2\MainArticle.Designer.cs">
+      <DependentUpon>MainArticle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MainInit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainInit.Designer.cs">
+      <DependentUpon>MainInit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Layer10\MainDownPic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Layer10\MainDownPic.Designer.cs">
+      <DependentUpon>MainDownPic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainLogin.Designer.cs">
+      <DependentUpon>MainLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Layer7\MainTag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Layer7\MainTag.Designer.cs">
+      <DependentUpon>MainTag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Layer4\MainGallery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Layer4\MainGallery.Designer.cs">
+      <DependentUpon>MainGallery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Common\PageInfo.cs" />
+    <Compile Include="UI\Layer1\MainDirectory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Layer1\MainDirectory.Designer.cs">
+      <DependentUpon>MainDirectory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Layer4\MainGirlG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Layer4\MainGirlG.Designer.cs">
+      <DependentUpon>MainGirlG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Common\Helper.cs" />
+    <Compile Include="UI\Layer3\MainGirlDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Layer3\MainGirlDown.Designer.cs">
+      <DependentUpon>MainGirlDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Other\MainGDownPicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Other\MainGDownPicture.Designer.cs">
+      <DependentUpon>MainGDownPicture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Other\MainGalleryPic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Other\MainGalleryPic.Designer.cs">
+      <DependentUpon>MainGalleryPic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Layer1\MainDownIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Layer1\MainDownIndex.Designer.cs">
+      <DependentUpon>MainDownIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Common\Common.cs" />
+    <Compile Include="UI\Layer9\MainDownHead.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Layer9\MainDownHead.Designer.cs">
+      <DependentUpon>MainDownHead.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Other\MainGirlAlbum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Other\MainGirlAlbum.Designer.cs">
+      <DependentUpon>MainGirlAlbum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Common\DownFile.cs" />
+    <Compile Include="Models\Common\FileSubstring.cs" />
+    <Compile Include="UI\Other\MainIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Other\MainIndex.Designer.cs">
+      <DependentUpon>MainIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Other\MainGirl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Other\MainGirl.Designer.cs">
+      <DependentUpon>MainGirl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Common\FileUrl.cs" />
+    <Compile Include="UI\Other\MainG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Other\MainG.Designer.cs">
+      <DependentUpon>MainG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Common\PicFile.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\Other\MainRank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Other\MainRank.Designer.cs">
+      <DependentUpon>MainRank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Other\MainTag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Other\MainTag.Designer.cs">
+      <DependentUpon>MainTag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XtraForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XtraForm1.Designer.cs">
+      <DependentUpon>XtraForm1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UI\Layer2\MainArticle.resx">
+      <DependentUpon>MainArticle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainLogin.resx">
+      <DependentUpon>MainLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="UI\Layer10\MainDownPic.resx">
+      <DependentUpon>MainDownPic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Layer4\MainGallery.resx">
+      <DependentUpon>MainGallery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Layer1\MainDirectory.resx">
+      <DependentUpon>MainDirectory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Layer4\MainGirlG.resx">
+      <DependentUpon>MainGirlG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Layer3\MainGirlDown.resx">
+      <DependentUpon>MainGirlDown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Layer7\MainTag.resx">
+      <DependentUpon>MainTag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainInit.resx">
+      <DependentUpon>MainInit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Other\MainGDownPicture.resx">
+      <DependentUpon>MainGDownPicture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Other\MainGalleryPic.resx">
+      <DependentUpon>MainGalleryPic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Layer1\MainDownIndex.resx">
+      <DependentUpon>MainDownIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Layer9\MainDownHead.resx">
+      <DependentUpon>MainDownHead.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Other\MainGirlAlbum.resx">
+      <DependentUpon>MainGirlAlbum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Other\MainG.resx">
+      <DependentUpon>MainG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Other\MainIndex.resx">
+      <DependentUpon>MainIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Other\MainGirl.resx">
+      <DependentUpon>MainGirl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Other\MainRank.resx">
+      <DependentUpon>MainRank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Other\MainTag.resx">
+      <DependentUpon>MainTag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraForm1.resx">
+      <DependentUpon>XtraForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Icons\" />
+    <Folder Include="Models\Entity\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gallery.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tag.JPG" />
+    <None Include="Resources\article.JPG" />
+    <None Include="Resources\index.JPG" />
+    <Content Include="Resources\work.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

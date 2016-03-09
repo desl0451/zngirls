@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="www_zngirls_com_g.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="编号" Type="System.String" Scope="User">
+      <Value Profile="(Default)">编号</Value>
+    </Setting>
+    <Setting Name="姓名" Type="System.String" Scope="User">
+      <Value Profile="(Default)">姓名</Value>
+    </Setting>
+    <Setting Name="颜色" Type="System.String" Scope="User">
+      <Value Profile="(Default)">颜色</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
